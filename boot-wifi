@@ -1,0 +1,4 @@
+sudo rfkill unblock all
+sudo ip link set wlan0 up
+systemctl start dhcpcd
+#systemctl start ntpd

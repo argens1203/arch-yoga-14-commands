@@ -1,0 +1,4 @@
+cd ~/journal/Local
+git add .
+git commit -m "$(date)"
+git push

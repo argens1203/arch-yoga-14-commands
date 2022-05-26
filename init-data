@@ -1,0 +1,5 @@
+rm -rf ~/project/swap-backend/node/data
+cp -R ~/journal/Local ~/project/swap-backend/node
+cd ~/project/swap-backend/node
+mv Local data
+npm run inject

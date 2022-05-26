@@ -1,0 +1,2 @@
+git -C ~/journal/Local pull --ff-only &&
+obsidian&
